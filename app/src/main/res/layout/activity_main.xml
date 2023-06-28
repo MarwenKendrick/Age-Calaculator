@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/calculate"
+        android:textAllCaps="true"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:background="@color/yellow"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/age"
+        android:textColor="@color/background_color"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="In Minutes"
+        android:textAllCaps="true"
+        android:textColor="@color/yellow"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn_Date"
+        android:layout_marginHorizontal="25dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/background_color"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_date" />
+
+    <TextView
+
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:text="MM,DD,YYYY"
+        android:textColor="@color/light_Violet"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="15sp"
+        android:textColor="@color/skyBlue"
+        />
+
+
+    <TextView
+        android:id="@+id/tvAgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="2000"
+        android:textColor="@color/light_Violet"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In minutes till date"
+        android:textColor="@color/light_Violet"
+        android:textSize="15sp" />
+
+    <TextView
+                android:id="@+id/tvAgeInHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="200"
+                android:textColor="@color/light_Violet"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In Hours till date"
+                android:textColor="@color/light_Violet"
+                android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/tvAgeInDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="20"
+        android:textColor="@color/light_Violet"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Days till date"
+        android:textSize="15sp"
+        android:textColor="@color/light_Violet"
+        />
+
+
+</LinearLayout>
